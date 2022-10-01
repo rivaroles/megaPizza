@@ -1,0 +1,242 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+input::placeholder {
+    color: #3E3E3E;
+}
+h1 {
+    font-size: 40px;
+}
+h2 {
+    font-size: 32px;
+}
+h3 {
+    font-size: 30px;
+}
+
+.opcaoCardapio {
+    color: #262E4B;
+    background-color: transparent;
+    display: inline-flex;
+    flex-wrap: wrap;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+@media (max-width: 800px){
+    .opcaoCardapio {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+.AMHover:hover {
+    color: #FF5544;
+    transition: 0.2s;
+}
+.button {
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    color: #262E4B;
+    font-size: 30px;
+    border: none;
+}
+@media (max-width: 800px){
+    .button {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+.button:hover {
+    color: #FF5544;
+    transition: 0.2s;
+    cursor: pointer;
+    border-bottom: 5px solid #FF5544;
+}
+.selected {
+    color: #FF5544;
+    border-bottom: 5px solid #FF5544;
+}
+
+#navbar {
+    display: flex;
+    height: 100px;
+    width: 100%;
+    background-color: #FF5544;
+}
+@media (max-width: 800px){
+    #navbar{
+        height: 50px;
+    }
+}
+#info {
+    display: flex;
+}
+#logo {
+    display: inline;
+    width: 135px;
+    height: 67.5px;
+    margin-left: 134px;
+    margin-top: 16.25px;
+}
+@media (max-width: 800px){
+    #logo{
+        width: 70px;
+        height: 35px;
+        margin-left: 33px;
+        margin-top: 8px;
+    }
+}
+#numTel {
+    color: #FFFAFA;
+    background-color: #FF5544;
+    width: 290px;
+    height: 45px;
+    margin-left: 65px;
+    margin-top: 26px;
+}
+@media (max-width: 800px){
+    #numTel {
+        display: none;
+    }
+}
+#pesquisa {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 60%;
+    height: 60px;
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 120px;
+    margin-right: 20px;
+    background-color: #FFFAFA;
+    max-width: 1000px;
+    font-size: 32px;
+    border: none;
+    outline: none;
+}
+@media (max-width: 800px){
+    #pesquisa{
+        display: none;
+    }
+}
+
+/*
+#textoPesquisa {
+    display: flex;
+    flex-direction: row;
+    color: #3E3E3E;
+    align-items: center;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 0;
+}
+*/
+
+#menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+    width: 100%;
+    background-color: #FDD504;
+}
+@media (max-width: 800px){
+    #menu {
+        height: 134px;
+    }
+}
+#ende {
+    display: flex;
+    flex-wrap: wrap;
+    color: #262E4B;
+    background-color: transparent;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    text-decoration: none;
+    border-radius: 6px;
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+}
+@media (max-width: 800px){
+    #ende {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        font-size: 16px;
+        line-height: 24px;
+        width: 240px;
+        height: 24px;
+        padding: 0px;
+        margin: 0px;
+    }
+}
+#openButton {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 12px;
+    border: none;
+    height: 80px;
+    padding: 0px 20px;
+    background-size: cover;
+}
+@media (max-width: 800px){
+    #openButton {
+        display: inline-block;
+        align-items: center;
+        width: 261px;
+        height: 46px;
+        padding: 0px 30px;
+    }
+}
+#openButton:hover {
+    cursor: pointer;
+}
+#callMe {
+    display: flex;
+    flex-direction: row;
+    color: #262E4B;
+    background-color: transparent;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-style: none;
+    font-size: 32px;
+    border-radius: 6px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer; 
+}
+@media (max-width: 800px){
+    #callMe {
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        padding: 0px 80px;
+    }
+}
+@media (max-width: 800px){
+    #telIcon {
+        display: none;
+    }
+}
+
+#barraCardapio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 2%;
+}
